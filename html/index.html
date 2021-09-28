@@ -1,0 +1,46 @@
+<!DOCTYPE html> <!--el primer documento siempre se debe llamar index,
+     y lo inicio colocando el signo de admiración hacia abajo; de esta forma
+    garantizo que se escriba la estructura del html por su cuenta-->
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fronted Store</title>
+    <!--Inicio con el normalize, siempre, que me permite que los elementos se vean
+    igual entodos los navegadores-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--luego coloco el tipo de letra-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <!--luego coloco el style.css-->
+    <link rel="stylesheet" href="css/style.css">
+   <!--<link rel="preload" href="css/style.css" as="style">--> 
+</head>
+<body>
+    <header  class="header" > 
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logo"> <!--este alt es un texto
+            alternativo, que aparece cuando la imagen que yo elijo no carga, además  permite ubicarnos en el documento-->
+        </a>
+    </header>
+       
+    <div class="navegacion">
+        <nav> 
+            <a class="navegacion__enlaces navegacion__enlaces--activo" href="index.html">Tienda</a>
+            <a class="navegacion__enlaces" href="nosotros.html">Nosotros</a>
+        </nav>
+    </div>
+
+    <main>
+        <h1>Nuestros productos</h1>
+
+
+    </main>
+
+    <footer class="footer"> 
+        <p class="footer__texto">FrontEnd Store. Todos los derechos reservados 2020.</p>
+    </footer>
+    
+</body>
+</html>

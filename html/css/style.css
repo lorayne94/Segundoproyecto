@@ -1,0 +1,117 @@
+/**globales**/
+
+:root{ /**con root puedo colocar las variables que quiera emplear en el proyecto,
+    no solo los colores**/
+      --primario: rgb(177, 52, 166);
+      --primariooscuro: rgb(134, 20, 110);
+      --secundario: rgb(230, 201, 36); 
+      --secundariooscuro: rgb(235, 231, 5); 
+      --blanco: #FFF;
+      --negro: #000; 
+    
+      --letra: 'Staatliches', cursive;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+ 
+}
+
+body{
+ background-color: var(--primario);
+ font-size: 1.6rem;
+ line-height: 1.5;
+}
+
+p{
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--blanco);
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+/**header, donde aparece el logo**/
+.header{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+ 
+.header__logo{
+  margin: 3rem 0; /**recuerda que es (top, right, bottom, left)**/
+}
+
+/**navegación, los enlaces principales**/
+.navegacion{
+  background-color: var(--primariooscuro);
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  gap: 2rem;
+}
+
+.navegacion__enlaces{
+ color: var(--blanco);
+ text-transform: uppercase;
+ font-family: var(--letra); 
+ font-size: 2rem;
+ margin-right: 3rem;
+ margin-left: 3rem;
+}
+
+.navegacion__enlaces--activo, /**esto me permite incluir cosas que sucederán cuando esté en una página en especifico**/
+.navegacion__enlaces:hover{
+  background-color: var(--secundario);
+  color: var(--negro);
+  padding: 1rem;
+}
+
+
+
+.footer{
+  padding: 1rem 0;
+  background-color: var(--primariooscuro);
+  margin: 2rem 0;
+}
+
+.footer__texto{
+  text-align: center;
+  color: var(--secundariooscuro);
+  font-size: 2rem;
+  font-family: var(--letra);
+}
+ 
+
+
+
+h1, h2, h3 {
+  text-align: center;
+  color: var(--secundario);
+  font-family: var(--letra);
+
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 3.8rem;
+
+}
+
+h3{
+  font-size: 2.4rem;
+}
