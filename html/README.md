@@ -1,9 +1,9 @@
-#Tienda virtual
+#Tienda virtual#
 
 Proyecto en el cual se muestran todos los artículos que están a la venta en la Tienda Virtual **Loraynebeltrán**
 
 
-##Tecnologías utilizadas
+##Tecnologías utilizadas##
 
 * HTML
 * CSS
